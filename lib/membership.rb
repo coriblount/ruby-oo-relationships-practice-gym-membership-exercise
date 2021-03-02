@@ -1,14 +1,14 @@
-require pry
-
 class Membership
+
   attr_reader :cost, :gym, :member
 
-@@all = []
+  @@all = []
 
   def initialize(cost, gym, member)
     @cost = cost
     @gym = gym
     @member = member
+
     @@all << self
   end
 
@@ -16,7 +16,7 @@ class Membership
     @@all
   end
 
- 
+
 
 
 end
