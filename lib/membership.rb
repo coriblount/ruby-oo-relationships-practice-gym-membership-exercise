@@ -1,5 +1,5 @@
 require pry
-
+#joiner
 class Membership
   attr_reader :cost, :gym, :member
 
